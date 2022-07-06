@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;1,300&family=Montserrat:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@300;400&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500&display=swap');
+*{
+    margin: 0;
+}
+.media{
+    display: flex;
+    flex-direction: column;
+    width:200px;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 10px;
+    position:relative;
+   background-color: #95D1CC;
+   height:390px;
+   cursor:pointer;
+  
+   
+}
+
+.media:hover{
+    background-color: aliceblue;
+    color:black;
+}
+@media (max-width:550px){
+    .media{
+        width:280px;
+        height:93%;
+        margin-bottom: 25px !important;
+        margin:auto;
+    }
+}
+.poster{
+    border-radius: 10px;
+}
+.title{
+    width:100%;
+    text-align: center;
+    font-size: 15px;
+    padding: 8px 0;
+}
+.major{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3px;
+    margin:0 4px;
+}
+.trend{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
